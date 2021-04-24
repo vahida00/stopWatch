@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url('stopWatch.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    text-align:center;
+    font-weight:bold;
+}
+.timer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    padding:5%;
+}
+.clock{
+    display:flex;
+    justify-content:space-between;
+    padding:5%;
+    border:2px solid #ff3568;
+    border-radius:4%;
+    box-shadow: 2px 3px 4px 3px #000000;
+    outline:none;
+}
+.values{
+    display: flex;
+    padding:20px;
+    justify-content: space-between;
+    outline:none;
+    justify-content:center;
+}
+#start,#stop,#reset{
+    border:1px solid #ff3568;
+    padding:20px;
+    border-radius: 45px;
+    box-shadow: 2px 2px 2px 1px #000004;
+    margin:5%;
+    outline:none;
+    font-size:20px;
+    align-items: center;
+}
+span{
+    font-size:40px;
+}
+#start{
+    background-color:#ff3568;
+}
+#stop:hover{
+    background-color:#ff3568;
+}
+#reset:hover{
+    background-color:#ff3568;
+}
